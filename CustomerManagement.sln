@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerApi", "CustomerApi\CustomerApi.csproj", "{C65B88BB-C719-4174-80F6-9C378B05D476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{F28F2923-A9BA-4E42-B13E-967DFF1CD157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerUI", "CustomerUI\CustomerUI.csproj", "{C3499450-92B5-4336-B0C1-903DA10F6261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C65B88BB-C719-4174-80F6-9C378B05D476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65B88BB-C719-4174-80F6-9C378B05D476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65B88BB-C719-4174-80F6-9C378B05D476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65B88BB-C719-4174-80F6-9C378B05D476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28F2923-A9BA-4E42-B13E-967DFF1CD157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28F2923-A9BA-4E42-B13E-967DFF1CD157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28F2923-A9BA-4E42-B13E-967DFF1CD157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28F2923-A9BA-4E42-B13E-967DFF1CD157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3499450-92B5-4336-B0C1-903DA10F6261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3499450-92B5-4336-B0C1-903DA10F6261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3499450-92B5-4336-B0C1-903DA10F6261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3499450-92B5-4336-B0C1-903DA10F6261}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

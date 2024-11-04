@@ -1,0 +1,27 @@
+﻿@page
+@model CustomerUI.Pages.IndexModel
+
+<h2>Customers</h2>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var customer in Model.Customers)
+    {
+        <tr>
+            <td>@customer.Name</td>
+            <td>@customer.Email</td>
+            <td>
+                <a asp-page="/EditCustomer" asp-route-id="@customer.Id">Edit</a> |
+                <a asp-page-handler="DeleteCustomer" asp-route-id="@customer.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a asp-page="/CreateCustomer">Create New</a>
